@@ -8,8 +8,8 @@ from PIL import Image
 # with open(r'C:\Users\YeHernYeow\Desktop\Demo\username.json', 'r') as json_file:
 #     user_info = json.load(json_file)
 
-df = pd.read_excel(r'C:\Users\YeHernYeow\Desktop\Demo\Global_Superstore2.xlsx')
-image = Image.open(r'C:\Users\YeHernYeow\Desktop\Demo\RDA_Logo.png')
+df = pd.read_excel('data\Global_Superstore2.xlsx')
+image = Image.open('data\RDA_Logo.png')
 st.title('Testing :fire:')
 
 st.image(image, caption='RDA')
